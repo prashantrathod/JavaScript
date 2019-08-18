@@ -291,3 +291,5 @@ if (johnAverage > mikeAverage && maryAverage) {
     else if( johnAverage === mikeAverage && maryAverage){
         console.log('John\s team has an average of ' + johnAverage + ', Mike\'s team has an average of ' + mikeAverage + ' and Mary\'s team has an average of ' + maryAverage + ', therefore its a Draw' );
     }
+
+    test to github
