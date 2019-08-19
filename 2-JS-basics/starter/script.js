@@ -261,6 +261,7 @@ if(height == '23'){
 *Coding Challenge 2
 */
 
+/*
 var johnGame1 = 189;
 var johnGame2 = 120;
 var johnGame3 = 103;
@@ -291,5 +292,78 @@ if (johnAverage > mikeAverage && maryAverage) {
     else if( johnAverage === mikeAverage && maryAverage){
         console.log('John\s team has an average of ' + johnAverage + ', Mike\'s team has an average of ' + mikeAverage + ' and Mary\'s team has an average of ' + maryAverage + ', therefore its a Draw' );
     }
+*/
+  
 
-    test to github
+
+/**************************
+*Fucntions
+*/
+
+/*
+function calculateAge (birthYear){
+    return 2019 - birthYear;
+}
+
+var ageSanj = calculateAge(1988);
+var ageHaj = calculateAge(1992)
+
+
+console.log(ageSanj, ageHaj);
+
+
+function yearsUntilRetirement(year, firstName){
+
+var age = calculateAge(year);
+var retirement = 65 - age;
+
+if(retirement > 0){
+    console.log(firstName + " can retire in " + retirement + " years");
+} else{
+    console.log(firstName + " is Already Retired");
+}
+
+}
+
+yearsUntilRetirement(1993, 'Prashant');
+yearsUntilRetirement(1988, 'sanj');
+yearsUntilRetirement(1950, 'haj');
+*/
+
+
+/**************************
+*Fucntion Statements and Expressions
+*/
+
+//Function Declaration
+    // function whatDoYouDo (job, firstName){}
+
+//Function Expression
+var whatDoYouDo = function(job, firstName){
+
+    switch(job){
+        case 'teacher':
+            return firstName + ' teaches kids how to code';
+
+        case 'driver':
+            return firstName + ' drives a cab in faro';
+            
+        case 'designer':
+            return firstName + ' designs websites for a living'
+
+        default:
+            return firstName + ' does something else'
+    }
+
+}
+
+
+console.log(whatDoYouDo('teacher', 'prashant'));
+console.log(whatDoYouDo('driver', 'john'));
+console.log(whatDoYouDo('retired', 'mark'));
+
+
+
+
+
+
